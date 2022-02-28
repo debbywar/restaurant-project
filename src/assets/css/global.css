@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    background: #FAFAFA;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-button {
+    background: #FF2351;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 35px;
+
+}
+
+.secondary-button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 35px;   
+}
+
+input[type="text"] {
+    height: 47px;
+    border-radius: 8px;
+    border: 1px solid #848484;
+    color: #848484;
+    padding: 0 15px;
+}
+.error {
+    border: 1px solid #fa3b3b;
+ }
+
+.error::placeholder {
+     color: #fa3b3b;
+ }
+
+ textarea {
+     padding: 15px;
+ }
+
+
+/* ARRUMADO */
+@media (max-width: 480px) {
+body {
+    background: white;
+}
+} 
+
+
+@media (max-width: 767px) {
+    body {
+        background: white;
+    }
+    } 
+
+
+
+    
